@@ -14,5 +14,5 @@ echo Running gradient descent...
 python3 grad_desc.py
 
 echo Running ascii generator...
-python3 asciigenerator.py --file photo.jpeg
+python3 asciigenerator.py --file sadlinus.jpg
 
