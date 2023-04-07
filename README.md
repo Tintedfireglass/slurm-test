@@ -1,6 +1,6 @@
 # slurm-test
 
-run with ```sbatch slcr.sh``` 
+run with ```sbatch slurm_script.sh``` 
 
 ![image](https://user-images.githubusercontent.com/108338649/230160342-10780f1c-08c9-4e34-a7a0-13f564e739bd.png)
 
