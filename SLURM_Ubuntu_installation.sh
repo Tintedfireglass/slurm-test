@@ -65,13 +65,13 @@ sudo /usr/bin/gem install fpm
 mkdir slurm-tmp
 cd slurm-tmp
 if [ "$VER" == "" ]; then
-    export VER=20.02-latest    # latest 20.02.XX version
-    export VER=20.11.3
-    export VER=20.11-latest   # slurm-20.11-latest.tar.bz2
-    export VER=20.11.9   # slurm-20.11-latest.tar.bz2
+    export VER=22.05.7    # latest 20.02.XX version
+    export VER=22.05.8
+    export VER=23.02.0   
+    export VER=23.02.1   
     # export VER=22.05-latest # broken 
 fi
-# https://download.schedmd.com/slurm/slurm-20.02.3.tar.bz2
+# https://download.schedmd.com/slurm/slurm-23.02.1.tar.bz2
 wget https://download.schedmd.com/slurm/slurm-$VER.tar.bz2
 
 [ $? != 0 ] && echo Problem downloading https://download.schedmd.com/slurm/slurm-$VER.tar.bz2 ... Exiting && exit
