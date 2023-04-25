@@ -1,6 +1,9 @@
 # slurm-test
 
-run with ```sbatch slurm_script.sh``` 
+1) install slurm: ```sh SLURM_Ubuntu_installation.sh```
+2) check if slurm is running: ```scontrol ping```
+3) start slurm server: ```sudo slurmctld```
+4) submit job: ```sbatch slurm_script.sh``` 
 
 ![image](https://user-images.githubusercontent.com/108338649/230160342-10780f1c-08c9-4e34-a7a0-13f564e739bd.png)
 
